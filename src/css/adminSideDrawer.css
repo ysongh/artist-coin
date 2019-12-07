@@ -1,0 +1,8 @@
+.adminSideDrawer{
+    border: 1px solid black;
+}
+
+.adminSideDrawer__img{
+    width: 100%;
+    height: 20rem;
+}

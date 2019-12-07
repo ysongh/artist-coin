@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+import './css/adminProfile.css';
+import './css/adminSideDrawer.css';
 import './css/artistProfile.css';
 import './css/artistSideDrawer.css';
 import './css/fanProfile.css';
