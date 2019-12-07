@@ -10,6 +10,7 @@ import './css/artistSideDrawer.css';
 import './css/fanProfile.css';
 import './css/fanSideDrawer.css';
 import './css/index.css';
+import './css/landing.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
