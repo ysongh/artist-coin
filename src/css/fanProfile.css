@@ -1,4 +1,46 @@
 .fanProfile{
     border: 1px solid black;
-    padding: 2rem;
+    padding: 1rem 2.5rem;
+}
+
+.fanProfile h2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fanProfile p{
+    font-size: 1.6rem;
+}
+
+.fanProfile__table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.fanProfile__table td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.fanProfile__table th{
+    font-size: 1.4rem;
+}
+
+.fanProfile__table tr:nth-child(even){
+    background-color: #dddddd;
+}
+
+.fanProfile__table button{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fanProfile__btn-add{
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
