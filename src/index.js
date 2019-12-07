@@ -7,10 +7,12 @@ import './css/adminProfile.css';
 import './css/adminSideDrawer.css';
 import './css/artistProfile.css';
 import './css/artistSideDrawer.css';
+import './css/auth.css';
 import './css/fanProfile.css';
 import './css/fanSideDrawer.css';
 import './css/index.css';
 import './css/landing.css';
+import './css/navbar.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
