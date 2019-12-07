@@ -1,0 +1,8 @@
+.artistSideDrawer{
+    border: 1px solid black;
+}
+
+.artistSideDrawer__img{
+    width: 100%;
+    height: 20rem;
+}

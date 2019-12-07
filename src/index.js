@@ -5,6 +5,7 @@ import * as serviceWorker from './serviceWorker';
 
 import './css/index.css';
 import './css/artistProfile.css';
+import './css/artistSideDrawer.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
