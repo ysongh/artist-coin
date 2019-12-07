@@ -1,10 +1,11 @@
 .landing{
-    padding: 2rem;
+    
 }
 
 .landing__hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
 }
 
 .landing__hero img{
@@ -40,4 +41,27 @@
     color: white;
     cursor: pointer;
     align-self: center;
+}
+
+.landing__icon-group{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 2rem 11rem;
+}
+
+.landing__icon-box{
+    background-color: white;
+    padding: 2rem;
+    width: 11rem;
+    text-align: center;
+}
+
+.landing__icon-box i{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.landing__icon-box p{
+    font-size: 1.6rem;
 }

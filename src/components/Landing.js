@@ -6,8 +6,7 @@ import Image from '../img/land-image.png';
 const Landing = () => {
     return(
         <div className="landing">
-            <h1>Artist Coin</h1>
-            <div className="landing__hero">
+            <header className="landing__hero">
                 <img src={Image} alt="Landing" />
                 <div className="landing__header">
                     <h1>Connect with your favorite artist & get reward</h1>
@@ -15,12 +14,25 @@ const Landing = () => {
                         <input placeholder="Search for Artist" />
                         <Link to="/dashboard/artist" className="landing__btn">Search</Link>
                     </div>
-                    
                 </div>
-            </div>
-            <Link to="/dashboard/admin">Admin</Link>
-            <br />
-            <Link to="/dashboard/fan">Fan</Link>
+            </header>
+
+            <main>
+                <div className="landing__icon-group">
+                    <div className="landing__icon-box">
+                        <i className="fas fa-music"></i>
+                        <p>Music for Artists and Fans</p>
+                    </div>
+                    <div className="landing__icon-box">
+                        <i className="fas fa-globe-americas"></i>
+                        <p>Connect with the World</p>
+                    </div>
+                    <div className="landing__icon-box">
+                        <i className="fas fa-child"></i>
+                        <p>Be Art Nation</p>
+                    </div>
+                </div>
+            </main>
         </div>
     );
 };
