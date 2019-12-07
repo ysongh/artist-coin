@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route  } from 'react-router-dom';
 
 import Landing from './components/Landing';
 import ArtistProfile from './components/Artist/ArtistProfile';
+import FanProfile from './components/Fan/FanProfile';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <header className="App-header">
         <Route exact path="/" component={Landing} />
         <Route exact path="/dashboard/artist" component={ArtistProfile} />
+        <Route exact path="/dashboard/fan" component={FanProfile} />
       </header>
     </Router>
   );
