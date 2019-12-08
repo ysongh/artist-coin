@@ -75,12 +75,19 @@
 
 .footer img{
     width: 10rem;
+    cursor: pointer;
 }
 
 .footer__links p{
     cursor: pointer;
     margin-bottom: .8rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #5a5353;
+}
+
+.footer__links p:first-child{
+    color: black;
 }
 
 .footer__copyright{
