@@ -13,7 +13,7 @@ const Landing = () => {
                     <h1>Connect with your favorite artist & get reward</h1>
                     <div className="landing__searchBar">
                         <input placeholder="Search for Artist" />
-                        <Link to="/dashboard/artist" className="landing__btn">Search</Link>
+                        <Link to="/dashboard/artist" className="landing__btn"><i className="fas fa-search"></i></Link>
                     </div>
                 </div>
             </header>

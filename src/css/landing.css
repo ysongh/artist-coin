@@ -17,15 +17,18 @@
 }
 
 .landing__header h1{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-top: 4rem;
+    font-weight: 900;
     margin-bottom: 3rem;
 }
 
 .landing__header input{
     width: 70%;
-    font-size: 1.4rem;
-    padding: .25rem;
+    font-size: 1.3rem;
+    padding: .4rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .landing__searchBar{
@@ -34,13 +37,16 @@
 
 .landing__btn{
     display: flex;
-    padding: .45rem;
+    padding: .65rem;
     font-size: 1.3rem;
     text-decoration: none;
     background-color: #3d17c9;
     color: white;
     cursor: pointer;
     align-self: center;
+    margin-left: -1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .landing__icon-group{
