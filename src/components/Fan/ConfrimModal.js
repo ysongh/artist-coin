@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ConfrimModal = ({ closeModal }) => {
     return(
@@ -10,7 +11,9 @@ const ConfrimModal = ({ closeModal }) => {
                 </p>
                 
                 <div className="popup__group">
-                    <button className="popup__btn">Confrim</button>
+                    <button className="popup__btn">
+                        <Link to="/dashboard/fan">Buy</Link>
+                    </button>
                     <button className="popup__btn" onClick={closeModal} >Cancel</button>
                 </div>
             </div> 
