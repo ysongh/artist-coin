@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import FanSideDrawer from './FanSideDrawer';
 
@@ -16,27 +17,27 @@ const FanProfile = () => {
                     <tr>
                         <th>Artist Name</th>
                         <th>Coins</th>
-                        <th>Buy</th>
+                        <th>Add</th>
                     </tr>
                     <tr>
                         <td>Taylor Swift</td>
                         <td>10</td>
                         <th>
-                            <button>Buy</button>
+                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
                         </th>
                     </tr>
                     <tr>
                         <td>Shakia</td>
                         <td>25</td>
                         <td>
-                            <button>Buy</button>
+                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
                         </td>
                     </tr>
                     <tr>
                         <td>Maroons</td>
                         <td>5</td>
                         <td>
-                            <button>Buy</button>
+                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
                         </td>
                     </tr>
                 </table>

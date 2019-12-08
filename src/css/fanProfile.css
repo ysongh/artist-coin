@@ -36,7 +36,17 @@
 .fanProfile__table button{
     padding: .5rem 1rem;
     font-size: 1rem;
+    background-color: #26c74e;
     cursor: pointer;
+}
+
+.fanProfile__button{
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    background-color: #26c74e;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: .2rem;
 }
 
 .fanProfile__btn-add{
