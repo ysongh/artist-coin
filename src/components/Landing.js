@@ -39,13 +39,13 @@ const Landing = () => {
                 <img src={Logo} alt="Logo" />
 
                 <div className="footer__links">
-                    <p>Home</p>
+                    <p><strong>Home</strong></p>
                     <p>Artist</p>
                     <p>Fan</p>
                 </div>
 
                 <div className="footer__links">
-                    <p>About</p>
+                    <p><strong>About</strong></p>
                     <p>Career</p>
                     <p>FAQs</p>
                     <p>T&Cs</p>
