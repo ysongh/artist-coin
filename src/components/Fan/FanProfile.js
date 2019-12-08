@@ -14,32 +14,37 @@ const FanProfile = () => {
                 <p><strong>Available Coins</strong>: 100</p>
 
                 <table className="fanProfile__table">
-                    <tr>
-                        <th>Artist Name</th>
-                        <th>Coins</th>
-                        <th>Add</th>
-                    </tr>
-                    <tr>
-                        <td>Taylor Swift</td>
-                        <td>10</td>
-                        <th>
-                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>Shakia</td>
-                        <td>25</td>
-                        <td>
-                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Maroons</td>
-                        <td>5</td>
-                        <td>
-                            <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>Artist Name</th>
+                            <th>Coins</th>
+                            <th>Add</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Taylor Swift</td>
+                            <td>10</td>
+                            <th>
+                                <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Shakia</td>
+                            <td>25</td>
+                            <td>
+                                <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Maroons</td>
+                            <td>5</td>
+                            <td>
+                                <Link to="/dashboard/fan/checkout" className="fanProfile__button">Add</Link>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
 
                 <div>

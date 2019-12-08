@@ -13,6 +13,7 @@ import './css/fanSideDrawer.css';
 import './css/index.css';
 import './css/landing.css';
 import './css/navbar.css';
+import './css/popup.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
