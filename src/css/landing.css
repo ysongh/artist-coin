@@ -110,6 +110,7 @@
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     padding: 2rem 3rem;
+    background-color: #f8f5f8;
 }
 
 .footer img{
