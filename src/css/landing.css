@@ -53,7 +53,7 @@
     display: flex;
     justify-content: space-between;
     background-color: blueviolet;
-    padding: 2rem 11rem;
+    padding: 2rem 8rem;
 }
 
 .landing__icon-box{
@@ -70,6 +70,39 @@
 
 .landing__icon-box p{
     font-size: 1.6rem;
+}
+
+.landing__auth{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    padding: 2rem 8rem;
+    margin: 4rem 0;
+}
+
+.landing__auth-text{
+    padding: 5rem 3rem;
+}
+
+.landing__auth-text p{
+    font-size: 3rem;
+}
+
+.landing__auth img{
+    width: 100%;
+}
+
+.landing__auth-btn{
+    display: inline-block;
+    padding: .65rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: #3d17c9;
+    color: white;
+    cursor: pointer;
+    align-self: center;
 }
 
 .footer{

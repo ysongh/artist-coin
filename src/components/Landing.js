@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Logo from '../img/artnation.png';
 import Image from '../img/land-image.png';
+import PersonImage1 from '../img/artist.jpeg';
+import PersonImage2 from '../img/fans.jpeg';
 
 const Landing = () => {
     return(
@@ -31,6 +33,20 @@ const Landing = () => {
                     <div className="landing__icon-box">
                         <i className="fas fa-child"></i>
                         <p>Be Art Nation</p>
+                    </div>
+                </div>
+
+                <div className="landing__auth">
+                    <div className="landing__auth-text">
+                        <p>Are you an artist?</p>
+                        <Link to="/dashboard/admin" className="landing__auth-btn">Sign Up</Link>
+                    </div>
+                    <img src={PersonImage1} alt="Person 1" />
+
+                    <img src={PersonImage2} alt="Person 1" />
+                    <div className="landing__auth-text">
+                        <p>Are you a fan?</p>
+                        <Link to="/dashboard/fan" className="landing__auth-btn">Sign Up</Link>
                     </div>
                 </div>
             </main>
