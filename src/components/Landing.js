@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../img/artnation.png';
 import Image from '../img/land-image.png';
 
 const Landing = () => {
@@ -33,6 +34,25 @@ const Landing = () => {
                     </div>
                 </div>
             </main>
+
+            <footer className="footer">
+                <img src={Logo} alt="Logo" />
+
+                <div className="footer__links">
+                    <p>Home</p>
+                    <p>Artist</p>
+                    <p>Fan</p>
+                </div>
+
+                <div className="footer__links">
+                    <p>About</p>
+                    <p>Career</p>
+                    <p>FAQs</p>
+                    <p>T&Cs</p>
+                </div>
+
+                <p className="footer__copyright">&copy; 2019 Artnation</p>
+            </footer >
         </div>
     );
 };

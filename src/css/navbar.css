@@ -1,8 +1,8 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 0 2rem;
+    padding: 0 5rem;
+    background-color: #f8f5f8;
 }
 
 .nav__list{

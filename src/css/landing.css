@@ -65,3 +65,24 @@
 .landing__icon-box p{
     font-size: 1.6rem;
 }
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 2rem 3rem;
+}
+
+.footer img{
+    width: 10rem;
+}
+
+.footer__links p{
+    cursor: pointer;
+    margin-bottom: .8rem;
+    font-size: 1.2rem;
+}
+
+.footer__copyright{
+    font-size: 1.2rem;
+}
