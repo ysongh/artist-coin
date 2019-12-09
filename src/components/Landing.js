@@ -64,7 +64,7 @@ const Landing = () => {
                     <p><strong>About</strong></p>
                     <p>Career</p>
                     <p>FAQs</p>
-                    <p>T&Cs</p>
+                    <p>Terms and Conditions</p>
                 </div>
 
                 <p className="footer__copyright">&copy; 2019 Artnation</p>
