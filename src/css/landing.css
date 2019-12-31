@@ -182,4 +182,19 @@
         font-size: 1.3rem;
     }
     
+    .footer{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: flex-start;
+        grid-row-gap: 1rem;
+    }
+
+    .footer img{
+        order: 2;
+    }
+
+    .footer__copyright{
+        order: 3;
+        align-self: center;
+    }
+    
 }

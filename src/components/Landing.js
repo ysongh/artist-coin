@@ -58,12 +58,13 @@ const Landing = () => {
                     <p><strong>Home</strong></p>
                     <p>Artist</p>
                     <p>Fan</p>
+                    <p>FAQs</p>
                 </div>
 
                 <div className="footer__links">
                     <p><strong>About</strong></p>
                     <p>Career</p>
-                    <p>FAQs</p>
+                    <p>Team</p>
                     <p>Terms and Conditions</p>
                 </div>
 
