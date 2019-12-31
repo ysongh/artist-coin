@@ -137,16 +137,16 @@
 @media(max-width: 900px){
     .landing__hero{
         grid-template-columns: 1fr;
-        padding: 2rem 1rem;
+        padding: 2rem;
     }
 
     .landing__header{
-        padding: 0 4rem;
+        padding: 0;
         margin-bottom: 3rem;
     }
 
     .landing__header h1{
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
@@ -169,7 +169,7 @@
     .landing__auth{
         grid-template-columns: 1fr;
         grid-gap: 1rem;
-        padding: 2rem 4rem;
+        padding: 2rem 3rem;
         margin: 2.5rem 0;
     }
 
