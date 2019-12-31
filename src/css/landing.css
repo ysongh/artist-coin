@@ -157,13 +157,29 @@
 
     .landing__icon-group{
         flex-direction: column;
+        align-items: center;
     }
 
     .landing__icon-box{
-        background-color: white;
-        padding: 2rem;
-        width: 11rem;
-        text-align: center;
+        padding: 3rem;
+        width: 15rem;
         margin: 1rem 0;
     }
+
+    .landing__auth{
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        padding: 2rem 4rem;
+        margin: 2.5rem 0;
+    }
+
+    .landing__auth-text{
+        padding: 1rem 0rem;
+    }
+
+    .landing__auth-btn{
+        margin-top: .5rem;
+        font-size: 1.3rem;
+    }
+    
 }

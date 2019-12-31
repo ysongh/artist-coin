@@ -37,13 +37,13 @@ const Landing = () => {
                 </div>
 
                 <div className="landing__auth">
+                    <img src={PersonImage1} alt="Person 1" />
                     <div className="landing__auth-text">
                         <p>Are you an artist?</p>
                         <Link to="/dashboard/admin" className="landing__auth-btn">Sign Up</Link>
                     </div>
-                    <img src={PersonImage1} alt="Person 1" />
-
-                    <img src={PersonImage2} alt="Person 1" />
+                    
+                    <img src={PersonImage2} alt="Person 2" />
                     <div className="landing__auth-text">
                         <p>Are you a fan?</p>
                         <Link to="/dashboard/fan" className="landing__auth-btn">Sign Up</Link>
