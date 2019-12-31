@@ -133,3 +133,37 @@
 .footer__copyright{
     font-size: 1.2rem;
 }
+
+@media(max-width: 900px){
+    .landing__hero{
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+
+    .landing__header{
+        padding: 0 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .landing__header h1{
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .landing__header input{
+        width: 100%;
+    }
+
+    .landing__icon-group{
+        flex-direction: column;
+    }
+
+    .landing__icon-box{
+        background-color: white;
+        padding: 2rem;
+        width: 11rem;
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
