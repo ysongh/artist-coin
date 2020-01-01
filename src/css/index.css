@@ -24,3 +24,10 @@ textarea:focus, input:focus {
 }
 
 .mb-2{ margin-bottom: 2rem; }
+
+@media(max-width: 900px){
+    .dashboard{
+        grid-template-columns: 1fr;
+        padding: 1rem 2rem;
+    }
+}
